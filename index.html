@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+  <link rel="stylesheet" href="/public/style.css" />
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+
+<body>
+  <div class="centered main">
+
+    <div id="mid-part">
+
+      <!-- <form action="/submit" method="POST"> -->
+      <div id="center-section">
+        <div id="day-div">Day<br /><input class="bDate" name="day" type="number" placeholder="DD" required /></div>
+        <div id="month-div">Month <br /><input class="bMonth" name="month" type="number" placeholder="MM" required /></div>
+        <div id="year-div">Year <br /><input class="bYear" name="year" type="number" placeholder="YYYY" required /></div>
+        <!-- </form> -->
+      </div>
+      <div id="output" class="flex">
+        <div id="line"></div>
+        <div>
+          <!-- <button type="submit" id="output-button"> -->
+          <button id="output-button">
+            <img src="./public/assets/icon-arrow.svg" alt="Submit">
+          </button>
+        </div>
+      </div>
+      <!-- </form> -->
+
+      <div id="age">
+        <h1 class="print-years"><xy>--</xy> years</h1>
+        <h1 class="print-months"><xy>--</xy> months</h1>
+        <h1 class="print-days"><xy>--</xy> days</h1>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- <div class="attribution"> -->
+  <!-- Challenge by -->
+  <!-- <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" -->
+  <!-- >Frontend Mentor</a -->
+  <!-- >. Coded by <a href="#">Devesh Gautam</a>. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="index.js"></script>
+  <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
